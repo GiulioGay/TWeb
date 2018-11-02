@@ -1,0 +1,67 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif; /*precedenza a Verdana*/
+    font-size: 8pt;
+    /*no margin o padding per distendersi fino a bordo finestra*/
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png");
+}
+#bannercore{
+    width: 795px;
+    margin-left: auto ;/*settati su auto perchè sia centrato*/
+    margin-right: auto ;
+}
+#banner{
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png"); /* data su blocco a monte per non essere influenzat da centraggio del banner*/
+}  
+h1{
+    font-family: Tahoma, Verdana, sans-serif; /*precedenza a Tahoma*/
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px #999999; /* crea la sfumatura dietro il testo 3px a destra e 3 sotto attributo per gradiente non utilizzato ultimo attrib determina il colore*/
+}
+#global{
+    border: 4px solid grey;
+    border-radius: 20px;
+    width: 800px;
+    margin-left: auto ;/*settati su auto perchè sia centrato*/
+    margin-right: auto ;
+}
+
+#right{
+    float: right;
+    width: 250px;
+    height: 1180px;
+    background-color: #A2B964;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+}
+#topbar{
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    background-image: url("https://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png");
+    img.resized { width: 200px; height: 53px; }
+    
+}
+#page{
+    text-align: center;
+    background-color: #A2B964;
+    border-radius: 0px 15px 15px 0px;  
+    height: 15px;
+    padding 550px;
+}
+.rece{
+    font-size: 8pt;
+    font-weight: bold;
+    background-color:#E8DC9B;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding-right: 8px;
+}
+#valid{
+    float: right;
+}
+.turtle{
+
+    border-radius: 20px;   
+}
